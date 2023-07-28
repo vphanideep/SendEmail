@@ -40,7 +40,7 @@ To use this action in your GitHub workflow, you can add the following snippet to
     
         
         - name: Send Email
-          uses: vphanideep/GithubActions@v1
+          uses: vphanideep/SendEmail@v1
           with:
             recipient: your_recipient_email@gmail.com
             subject: 'Enter email subject'
